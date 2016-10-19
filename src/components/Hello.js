@@ -18,7 +18,7 @@ module.exports = React.createClass({
           onChange: this.onChangeHandler,
           value: this.state.name
         }),
-        h(Link, { to: '/', className: 'mt3 db link'}, 'Home')
+        h(Link, { to: '/', className: 'mt3 db link' }, 'Home')
       ])
     )
   }
